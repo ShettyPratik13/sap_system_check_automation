@@ -18,5 +18,5 @@ This file contains the instructions on how the Batch File Automation works.
    (b) - website_Check_textOutput.vbs is then called to check status of all links
        - The link statuses get written to links_status.txt
    (c) - newvbs.vbs is then called to attach files systems_status.txt,links_status.txt and generate the email
--------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
      
