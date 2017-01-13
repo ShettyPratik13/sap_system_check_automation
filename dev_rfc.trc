@@ -1,0 +1,56 @@
+
+**** ERROR file opened at 20150115 155627 India Standard Time, SAP-REL 730,0,518 RFC-VER 3 1456876 MT-SL
+T:5800 Error in program 'sapinfo': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=110.2.202.255, GWSERV=sapgw00, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '110.2.202.255:3300' not reached
+TIME        Thu Jan 15 15:56:27 2015
+RELEASE     730
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 110.2.202.255:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+T:5800 Error in program 'sapinfo': ======> 
+
+>>> RfcOpenEx ...
+ Got following connect_param string: 
+   ASHOST=110.2.202.255 SYSNR=00 LCHECK=0 CLIENT=000 USER=SAPCPIC PASSWD=******* LANG=EN 
+<<< RfcOpenEx failed
+
+
+
+**** ERROR file opened at 20150115 155648 India Standard Time, SAP-REL 730,0,518 RFC-VER 3 1456876 MT-SL
+T:4652 Error in program 'sapinfo': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=190.3.49.228, GWSERV=sapgw00, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '190.3.49.228:3300' not reached
+TIME        Thu Jan 15 15:56:48 2015
+RELEASE     730
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 190.3.49.228:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+T:4652 Error in program 'sapinfo': ======> 
+
+>>> RfcOpenEx ...
+ Got following connect_param string: 
+   ASHOST=190.3.49.228 SYSNR=00 LCHECK=0 CLIENT=000 USER=SAPCPIC PASSWD=******* LANG=EN 
+<<< RfcOpenEx failed
+
+

@@ -1,0 +1,33 @@
+RD2 system up
+RD3 system up
+SD2 system up
+PD2 system up
+SMD system up
+BD2 system down
+ GD1 system down
+XD7 system down
+ S5D system down
+LCD system down
+ PO7 system down
+RQ2 system up
+RQ3 system up
+SQ2  system up
+PQ2 system up
+BQ2 system down
+S5T system down
+LCQ system down
+GQ1 system down
+XT7 system down
+S6P system up
+BWP system down
+LCP system up
+RP2 system up
+PP2 system up
+PCE system up
+S5P system up
+SMP system down
+SP2 system up
+S07 system down
+GP1 system down
+RP3 system up
+XP7 system down
